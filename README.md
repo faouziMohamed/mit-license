@@ -7,6 +7,7 @@
 
 ## Features
 
+Theme toggle (light/dark)
 Usage of query parameters to prefill the license template.
 
 There are only two parameters: `holder` and `year`.
@@ -15,6 +16,14 @@ There are only two parameters: `holder` and `year`.
   - If the `holder` parameter is not set, the default value is the name defined in the `.env` file.
   - If however the value is not set in the `.env` file, the default value is `<COPYRIGHT HOLDER>`.
 - The `year` parameter is used to prefill the year field. If the `year` parameter is not set, the current year is used.
+
+<details>
+<summary>Some screenshots</summary>
+<p align="center">
+  <img src="public/images/mit-screen.png" alt="Light theme" width="400"/>
+  <img src="public/images/mit-screen-dark.png" alt="Dark theme" width="400"/>
+</p>
+</details>
 
 ## Usage
 

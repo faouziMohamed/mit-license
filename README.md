@@ -1,4 +1,5 @@
 # MIT License web Template
+
 <p align="center">
   <img src="public/images/mit.png" alt="MIT Logo" width="200"/>
 </p>
@@ -22,7 +23,22 @@ Example: `https://<your-domain>/?holder=Faouzi Mohamed&year=2023`
 
 ## Development
 
-First, run the development server:
+You need to create a `.env` file in the root directory of the project and add the following variables:
+
+```env
+NEXT_PUBLIC_SITE_URL=https://<your-domain>
+NEXT_PUBLIC_COPYRIGHT_HOLDER=<COPYRIGHT HOLDER>
+```
+
+Then, install dependencies
+
+```bash
+yarn install
+# or
+# npm install
+```
+
+Finaly, run the development server:
 
 ```bash
 npm run dev

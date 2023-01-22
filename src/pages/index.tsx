@@ -3,7 +3,8 @@ import { useSearchParams } from "next/navigation";
 import ThemeSwitcher from "@/Component/ThemeSwitcher";
 import CopyRightText from "../Component/CopyRightText";
 const inconsolata = Inconsolata({ weight: "500", preload: true });
-const DEFAULT_COPYRIGHT_HOLDER = "Faouzi Mohamed";
+const DEFAULT_COPYRIGHT_HOLDER =
+  process.env.NEXT_PUBLIC_COPYRIGHT_HOLDER || "Faouzi Mohamed";
 const DEFAULT_LICENSE_YEAR = new Date().getFullYear().toString();
 
 export default function Home() {

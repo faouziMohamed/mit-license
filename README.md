@@ -1,8 +1,8 @@
 # MIT License web Template
-
-<img align="center" src="public/images/mit.png" alt="MIT Logo" width="200"/>
-
-Host your own license for your open source projects.
+<p align="center">
+  <img src="public/images/mit.png" alt="MIT Logo" width="200"/>
+</p>
+<p align="center">Host your own license for your open source projects. </p>
 
 ## Features
 
